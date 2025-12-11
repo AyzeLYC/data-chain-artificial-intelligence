@@ -46,8 +46,8 @@ class link {
 class knowledge {
     
     /**
-     * @param { string } knowledge_type
      * @param { string } knowledge_data
+     * @param { int } knowledge_links
     **/
     constructor ( knowledge_data, knowledge_links ) {
         
@@ -58,6 +58,7 @@ class knowledge {
     
 };
 
+var neural_network_links = [];
 var neural_network_knowledge = {
     
     "3d": {
