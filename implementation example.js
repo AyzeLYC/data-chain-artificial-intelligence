@@ -14,6 +14,7 @@ class data {
 class destination {
     
     /**
+     * @param { int } ratified_destination_version
      * @param { string } destination_type
      * @param { int } destination_index
     **/
@@ -29,7 +30,6 @@ class destination {
 class link {
     
     /**
-     * @param { int } ratified_link_version
      * @param { destination } link_coming_from
      * @param { destination } link_going_to
      * param { int } link_strength
