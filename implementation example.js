@@ -1,3 +1,16 @@
+class data {
+    
+    /**
+     * @param { string || int } data
+    **/
+    constructor ( data ) {
+        
+        this.data = data;
+        
+    };
+    
+};
+
 class destination {
     
     /**
@@ -67,5 +80,18 @@ var neural_network_knowledge = {
         
         
     }
+    
+};
+
+class train_neural_network {
+    
+    /**
+     * @param { data[] } training_datas
+    **/
+    constructor ( training_datas ) {
+        
+        
+        
+    };
     
 };
