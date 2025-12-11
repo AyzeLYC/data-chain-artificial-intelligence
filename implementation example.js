@@ -1,1 +1,71 @@
+class destination {
+    
+    /**
+     * @param { int } destination_type
+     * @param { int } destination_index
+    **/
+    constructor ( destination_type, destination_index ) {
+        
+        this.type = destination_type;
+        this.index = destination_index;
+        
+    };
+    
+};
 
+class link {
+    
+    /**
+     * @param { destination } link_coming_from
+     * @param { destination } link_going_to
+     * param { int } link_strength
+    **/
+    constructor ( link_coming_from, link_going_to, link_strength ) {
+        
+        this.from = link_coming_from;
+        this.to = link_going_to;
+        this.strength = link_strength;
+        
+    };
+    
+};
+
+class knowledge {
+    
+    /**
+     * @param { string } knowledge_type
+     * @param { string } knowledge_data
+    **/
+    constructor ( knowledge_data, knowledge_links ) {
+        
+        this.data = knowledge_data;
+        this.links = knowledge_links;
+        
+    };
+    
+};
+
+var neural_network_knowledge = {
+    
+    "3d": {
+        
+        
+        
+    },
+    "coding": {
+        
+        
+        
+    },
+    "language": {
+        
+        
+        
+    },
+    "mathematical": {
+        
+        
+        
+    }
+    
+};
