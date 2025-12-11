@@ -29,12 +29,14 @@ class destination {
 class link {
     
     /**
+     * @param { int } ratified_link_version
      * @param { destination } link_coming_from
      * @param { destination } link_going_to
      * param { int } link_strength
     **/
     constructor ( link_coming_from, link_going_to, link_strength ) {
         
+        this.version = ratified_link_version;
         this.from = link_coming_from;
         this.to = link_going_to;
         this.strength = link_strength;
