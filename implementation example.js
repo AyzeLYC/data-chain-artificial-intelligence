@@ -14,7 +14,7 @@ class data {
 class destination {
     
     /**
-     * @param { int } destination_type
+     * @param { string } destination_type
      * @param { int } destination_index
     **/
     constructor ( destination_type, destination_index ) {
