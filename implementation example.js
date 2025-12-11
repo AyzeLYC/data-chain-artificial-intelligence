@@ -18,8 +18,9 @@ class destination {
      * @param { string } destination_type
      * @param { int } destination_index
     **/
-    constructor ( destination_type, destination_index ) {
+    constructor ( ratified_destination_version, destination_type, destination_index ) {
         
+        this.version = ratified_destination_version;
         this.type = destination_type;
         this.index = destination_index;
         
@@ -36,7 +37,6 @@ class link {
     **/
     constructor ( link_coming_from, link_going_to, link_strength ) {
         
-        this.version = ratified_link_version;
         this.from = link_coming_from;
         this.to = link_going_to;
         this.strength = link_strength;
